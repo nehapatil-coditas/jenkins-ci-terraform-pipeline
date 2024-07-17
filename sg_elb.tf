@@ -1,3 +1,4 @@
+# Creating security group with rules
 resource "aws_security_group" "demosg1" {
   name        = "Demo Security Group"
   description = "Demo Module"
